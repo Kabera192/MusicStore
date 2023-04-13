@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header h1{
+    background-image: url('/img/album1.jpg');
+    padding: 10px 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+main h2{
+    text-align: center;
+}
+
+section.main-sec{
+    max-width: 30%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+section div{
+    margin: 40px;
+}
+
+section img{
+    display: block;
+    max-width: 100%;
+    margin: 10px;
+}
+
+div span{
+    position: relative;
+    left: -95px;
+    color: #8b8a8a;
+}
+
+div button{
+    position: relative;
+    right: -100px;
+    background-color: rgb(0, 133, 133);
+    color: white;
+    border-radius: 10px;
+    padding: 8.7px;
+    border: 1px solid white;
+}
+
+section.bottom-sec{
+    text-align: center;
+}
+
+.bottom-sec table{
+    margin: 0 auto;
+}
+
+.bottom-sec h3{
+    margin-bottom: 15px;
+}
+
+
+th.item{
+    position: relative;
+    left: -105px;
+    border-bottom: 1px solid black;
+    padding-right: 100px;
+    padding-bottom: 7px;
+}
+th.price-head{
+    border-bottom: 1px solid black;
+    padding-right: 30px;
+    padding-bottom: 7px;
+}
+th.qty-head{
+    position: relative;
+    right: -105px;
+    border-bottom: 1px solid black;
+    padding-right: 60px;
+    padding-bottom: 7px;
+}
+
+input.btn{
+    background-color: #f32727;
+    color: white;
+    padding: 6px 8px;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+input[type="number"]{
+    max-width: 19.5%;
+    background-color: #eae7e7;
+    border: 1px solid rgb(0, 133, 133);
+    border-radius: 4.3px;
+    padding: 5px;
+
+}
+
+p.total{
+    font-weight: bold;
+    position: relative;
+    right: -410px;
+    margin-top: 5px;
+}
+
+p span{
+    font-weight: 400;
+    color: #848282;
+}
+
+form input.btn-2{
+    background-color: rgb(0, 133, 133);
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 15px;
+}
+
+footer{
+    background-image: url('/img/album1.jpg');
+    padding: 20px;
+}
+
+footer span{
+    font-size: 27px;
+}
+
+footer ul{
+    display: inline-block;
+}
+
+footer ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 10px;
+}
+
+footer ul li img{
+    width: 27px;
+}
+
+td{
+    border-bottom: 1px solid black;
+    padding-right: 100px;
+    padding-bottom: 7px;
+}
+
+td.left{
+    position: relative;
+    left: -105px;
+}
+
+td.right{
+    position: relative;
+    right: -105px;
+}
+
+td img{
+    width: 30px;
+    display: inline-block;
+}
+
+input[type="button"]:hover, button:hover{
+    cursor: pointer;
+    background-color: rgb(1, 75, 75);
+}
+
+input.btn:hover{
+    background-color: #b40101;
+}
+
+input[type="number"]:focus{
+    outline: none;
+}
